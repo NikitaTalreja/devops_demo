@@ -1,0 +1,177 @@
+/*==========================================================================================================================================
+        PROJECT TITLE : STARTUP TEMPLATE 
+    FONTS USED : 
+    COLORS :
+    white  : #fff
+    black  : #000
+==========================================================================================================================================*/
+
+
+/*==========================================================================================================================================
+            GENERIC CSS
+==========================================================================================================================================*/
+html, body{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+/*==========================================================================================================================================
+            COMMON CSS
+==========================================================================================================================================*/
+.heading{
+    font-size: 25px;
+    font-weight: 400;
+}
+.heading-margin-bottom{
+    margin-bottom: 25px;
+}
+.sub-heading{
+    font-size: 18px;
+}
+.sub-heading-margin-bottom{
+    margin-bottom: 50px;
+}
+
+/*==========================================================================================================================================
+            NAVBAR CSS
+==========================================================================================================================================*/
+.navbar{
+    background: #fff;
+    box-shadow: 2px 0 5px 2px #ccc;
+    border: none;
+}
+.navbar .navbar-brand{
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.navbar .navbar-brand:hover, .navbar ul li:hover{
+    background: #ccc;
+}
+.navbar ul li{
+    text-transform: uppercase;
+}
+.icon-margin-right{
+   margin-right: 5px; 
+}
+/*==========================================================================================================================================
+            HOME-SECTION CSS
+==========================================================================================================================================*/
+.home-cover{
+    background: url("../../images/startup/mac.jpg") no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-position: center;
+    filter: grayscale(50%);
+    margin-top: 50px;
+}
+/*
+.home-text-outer{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+*/
+.home-text-inner{
+/*
+    display: table-cell;
+    vertical-align: middle;
+*/
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 180px;
+    margin-bottom: 150px;
+}
+.home-heading{
+    font-size: 65px;
+    margin-bottom: 50px;
+}
+.description-heading{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.home-text-inner a{
+    background: #ccc;
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    opacity: 0.7;
+   
+}
+.home-text-inner a:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+.icons{
+    padding-left: 50px;
+    color: #999;
+    font-size: 18px;
+}
+.icons i{
+    margin-right: 2px;
+}
+.icons i:hover{
+    color: #777;
+}
+.section-margin-bottom{
+    margin-bottom: 90px;
+}
+/*==========================================================================================================================================
+            ABOUT-SECTION CSS
+==========================================================================================================================================*/
+.about i{
+    font-size: 65px;
+}
+.about .feature-heading{
+    font-weight: 400;
+}
+.about .feature-description{
+    line-height: 25px;
+}
+/*==========================================================================================================================================
+            DESIGN-SECTION CSS
+==========================================================================================================================================*/
+.design-section{
+    background: #eee;
+}
+.design-section img{
+    border-radius: 10px;
+}
+.design-section .design-content-outer{
+    padding: 100px 0;  
+}
+.design-section .design-content{
+    line-height: 25px;
+}
+.design-section .work-button{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+/*==========================================================================================================================================
+            TEAM-SECTION CSS
+==========================================================================================================================================*/
+.team-member-1, .team-member-2, .team-member-3, .team-member-4{
+    box-shadow: 0 2px 5px 2px #ccc;
+   
+}
+.team img{
+    filter: grayscale(75%);
+}
+.team .team-content{
+    padding-left: 15px;
+}
+.team .designation{
+    color: #aaa;
+    font-size: 16px;
+}
+.team .team-member-description{
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.contact-button{
+    color: #000;
+    padding: 10px 90px;
+/*    text-align: center;*/
+    font-size: 16px;
+    background: #eee;
+    margin-bottom: 20px;
+}
